@@ -1,6 +1,8 @@
 import Quiz from '../../client/src/components/Quiz';
 import { mount } from 'cypress/react';
 import questions from '../fixtures/questions.json';
+import '@testing-library/cypress/add-commands';
+
 
 describe('Quiz Component', () => {
   beforeEach(() => {
